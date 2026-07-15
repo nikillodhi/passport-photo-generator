@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request, render_template, send_file
 from PIL import Image, ImageOps, ImageEnhance
 from io import BytesIO
